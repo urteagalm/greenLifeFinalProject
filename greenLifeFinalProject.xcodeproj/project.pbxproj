@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08894C11286B8AD600C20E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C10286B8AD600C20E24 /* AppDelegate.swift */; };
+		08894C13286B8AD600C20E24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C12286B8AD600C20E24 /* SceneDelegate.swift */; };
+		08894C15286B8AD600C20E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C14286B8AD600C20E24 /* ViewController.swift */; };
+		08894C18286B8AD600C20E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08894C16286B8AD600C20E24 /* Main.storyboard */; };
+		08894C1B286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08894C19286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld */; };
+		08894C1D286B8AD700C20E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08894C1C286B8AD700C20E24 /* Assets.xcassets */; };
+		08894C20286B8AD700C20E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08894C1E286B8AD700C20E24 /* LaunchScreen.storyboard */; };
+		08894C2B286B8AD700C20E24 /* greenLifeFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C2A286B8AD700C20E24 /* greenLifeFinalProjectTests.swift */; };
+		08894C35286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */; };
+		08894C37286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08894C27286B8AD700C20E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08894C05286B8AD600C20E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08894C0C286B8AD600C20E24;
+			remoteInfo = greenLifeFinalProject;
+		};
+		08894C31286B8AD800C20E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08894C05286B8AD600C20E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08894C0C286B8AD600C20E24;
+			remoteInfo = greenLifeFinalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08894C0D286B8AD600C20E24 /* greenLifeFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenLifeFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08894C10286B8AD600C20E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08894C12286B8AD600C20E24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08894C14286B8AD600C20E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08894C17286B8AD600C20E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08894C1A286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = greenLifeFinalProject.xcdatamodel; sourceTree = "<group>"; };
+		08894C1C286B8AD700C20E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08894C1F286B8AD700C20E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08894C21286B8AD700C20E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08894C26286B8AD700C20E24 /* greenLifeFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenLifeFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08894C2A286B8AD700C20E24 /* greenLifeFinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectTests.swift; sourceTree = "<group>"; };
+		08894C30286B8AD800C20E24 /* greenLifeFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenLifeFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectUITests.swift; sourceTree = "<group>"; };
+		08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08894C0A286B8AD600C20E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08894C23286B8AD700C20E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08894C2D286B8AD800C20E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08894C04286B8AD600C20E24 = {
+			isa = PBXGroup;
+			children = (
+				08894C0F286B8AD600C20E24 /* greenLifeFinalProject */,
+				08894C29286B8AD700C20E24 /* greenLifeFinalProjectTests */,
+				08894C33286B8AD800C20E24 /* greenLifeFinalProjectUITests */,
+				08894C0E286B8AD600C20E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08894C0E286B8AD600C20E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08894C0D286B8AD600C20E24 /* greenLifeFinalProject.app */,
+				08894C26286B8AD700C20E24 /* greenLifeFinalProjectTests.xctest */,
+				08894C30286B8AD800C20E24 /* greenLifeFinalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08894C0F286B8AD600C20E24 /* greenLifeFinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				08894C10286B8AD600C20E24 /* AppDelegate.swift */,
+				08894C12286B8AD600C20E24 /* SceneDelegate.swift */,
+				08894C14286B8AD600C20E24 /* ViewController.swift */,
+				08894C16286B8AD600C20E24 /* Main.storyboard */,
+				08894C1C286B8AD700C20E24 /* Assets.xcassets */,
+				08894C1E286B8AD700C20E24 /* LaunchScreen.storyboard */,
+				08894C21286B8AD700C20E24 /* Info.plist */,
+				08894C19286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld */,
+			);
+			path = greenLifeFinalProject;
+			sourceTree = "<group>";
+		};
+		08894C29286B8AD700C20E24 /* greenLifeFinalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				08894C2A286B8AD700C20E24 /* greenLifeFinalProjectTests.swift */,
+			);
+			path = greenLifeFinalProjectTests;
+			sourceTree = "<group>";
+		};
+		08894C33286B8AD800C20E24 /* greenLifeFinalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */,
+				08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */,
+			);
+			path = greenLifeFinalProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08894C0C286B8AD600C20E24 /* greenLifeFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08894C3A286B8AD800C20E24 /* Build configuration list for PBXNativeTarget "greenLifeFinalProject" */;
+			buildPhases = (
+				08894C09286B8AD600C20E24 /* Sources */,
+				08894C0A286B8AD600C20E24 /* Frameworks */,
+				08894C0B286B8AD600C20E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = greenLifeFinalProject;
+			productName = greenLifeFinalProject;
+			productReference = 08894C0D286B8AD600C20E24 /* greenLifeFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08894C25286B8AD700C20E24 /* greenLifeFinalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08894C3D286B8AD800C20E24 /* Build configuration list for PBXNativeTarget "greenLifeFinalProjectTests" */;
+			buildPhases = (
+				08894C22286B8AD700C20E24 /* Sources */,
+				08894C23286B8AD700C20E24 /* Frameworks */,
+				08894C24286B8AD700C20E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08894C28286B8AD700C20E24 /* PBXTargetDependency */,
+			);
+			name = greenLifeFinalProjectTests;
+			productName = greenLifeFinalProjectTests;
+			productReference = 08894C26286B8AD700C20E24 /* greenLifeFinalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08894C2F286B8AD800C20E24 /* greenLifeFinalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08894C40286B8AD800C20E24 /* Build configuration list for PBXNativeTarget "greenLifeFinalProjectUITests" */;
+			buildPhases = (
+				08894C2C286B8AD800C20E24 /* Sources */,
+				08894C2D286B8AD800C20E24 /* Frameworks */,
+				08894C2E286B8AD800C20E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08894C32286B8AD800C20E24 /* PBXTargetDependency */,
+			);
+			name = greenLifeFinalProjectUITests;
+			productName = greenLifeFinalProjectUITests;
+			productReference = 08894C30286B8AD800C20E24 /* greenLifeFinalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08894C05286B8AD600C20E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					08894C0C286B8AD600C20E24 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					08894C25286B8AD700C20E24 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 08894C0C286B8AD600C20E24;
+					};
+					08894C2F286B8AD800C20E24 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 08894C0C286B8AD600C20E24;
+					};
+				};
+			};
+			buildConfigurationList = 08894C08286B8AD600C20E24 /* Build configuration list for PBXProject "greenLifeFinalProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08894C04286B8AD600C20E24;
+			productRefGroup = 08894C0E286B8AD600C20E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08894C0C286B8AD600C20E24 /* greenLifeFinalProject */,
+				08894C25286B8AD700C20E24 /* greenLifeFinalProjectTests */,
+				08894C2F286B8AD800C20E24 /* greenLifeFinalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08894C0B286B8AD600C20E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08894C20286B8AD700C20E24 /* LaunchScreen.storyboard in Resources */,
+				08894C1D286B8AD700C20E24 /* Assets.xcassets in Resources */,
+				08894C18286B8AD600C20E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08894C24286B8AD700C20E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08894C2E286B8AD800C20E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08894C09286B8AD600C20E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08894C1B286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld in Sources */,
+				08894C15286B8AD600C20E24 /* ViewController.swift in Sources */,
+				08894C11286B8AD600C20E24 /* AppDelegate.swift in Sources */,
+				08894C13286B8AD600C20E24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08894C22286B8AD700C20E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08894C2B286B8AD700C20E24 /* greenLifeFinalProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08894C2C286B8AD800C20E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08894C35286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift in Sources */,
+				08894C37286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08894C28286B8AD700C20E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08894C0C286B8AD600C20E24 /* greenLifeFinalProject */;
+			targetProxy = 08894C27286B8AD700C20E24 /* PBXContainerItemProxy */;
+		};
+		08894C32286B8AD800C20E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08894C0C286B8AD600C20E24 /* greenLifeFinalProject */;
+			targetProxy = 08894C31286B8AD800C20E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08894C16286B8AD600C20E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08894C17286B8AD600C20E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08894C1E286B8AD700C20E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08894C1F286B8AD700C20E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08894C38286B8AD800C20E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08894C39286B8AD800C20E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08894C3B286B8AD800C20E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = greenLifeFinalProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.greenLifeFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08894C3C286B8AD800C20E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = greenLifeFinalProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.greenLifeFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08894C3E286B8AD800C20E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.greenLifeFinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greenLifeFinalProject.app/greenLifeFinalProject";
+			};
+			name = Debug;
+		};
+		08894C3F286B8AD800C20E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.greenLifeFinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greenLifeFinalProject.app/greenLifeFinalProject";
+			};
+			name = Release;
+		};
+		08894C41286B8AD800C20E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.greenLifeFinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = greenLifeFinalProject;
+			};
+			name = Debug;
+		};
+		08894C42286B8AD800C20E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.greenLifeFinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = greenLifeFinalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08894C08286B8AD600C20E24 /* Build configuration list for PBXProject "greenLifeFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08894C38286B8AD800C20E24 /* Debug */,
+				08894C39286B8AD800C20E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08894C3A286B8AD800C20E24 /* Build configuration list for PBXNativeTarget "greenLifeFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08894C3B286B8AD800C20E24 /* Debug */,
+				08894C3C286B8AD800C20E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08894C3D286B8AD800C20E24 /* Build configuration list for PBXNativeTarget "greenLifeFinalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08894C3E286B8AD800C20E24 /* Debug */,
+				08894C3F286B8AD800C20E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08894C40286B8AD800C20E24 /* Build configuration list for PBXNativeTarget "greenLifeFinalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08894C41286B8AD800C20E24 /* Debug */,
+				08894C42286B8AD800C20E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08894C19286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08894C1A286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodel */,
+			);
+			currentVersion = 08894C1A286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodel */;
+			path = greenLifeFinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08894C05286B8AD600C20E24 /* Project object */;
+}
