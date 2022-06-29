@@ -17,7 +17,6 @@
 		08894C2B286B8AD700C20E24 /* greenLifeFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C2A286B8AD700C20E24 /* greenLifeFinalProjectTests.swift */; };
 		08894C35286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */; };
 		08894C37286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */; };
-		08894C4A286B944A00C20E24 /* ProductsViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C49286B944A00C20E24 /* ProductsViewControllerB.swift */; };
 		08894C4C286B994C00C20E24 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C4B286B994C00C20E24 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		08894C30286B8AD800C20E24 /* greenLifeFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenLifeFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectUITests.swift; sourceTree = "<group>"; };
 		08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		08894C49286B944A00C20E24 /* ProductsViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewControllerB.swift; sourceTree = "<group>"; };
 		08894C4B286B994C00C20E24 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +107,6 @@
 				08894C12286B8AD600C20E24 /* SceneDelegate.swift */,
 				08894C16286B8AD600C20E24 /* Main.storyboard */,
 				08894C4B286B994C00C20E24 /* ProfileViewController.swift */,
-				08894C49286B944A00C20E24 /* ProductsViewControllerB.swift */,
 				08894C14286B8AD600C20E24 /* ViewController.swift */,
 				08894C1C286B8AD700C20E24 /* Assets.xcassets */,
 				08894C1E286B8AD700C20E24 /* LaunchScreen.storyboard */,
@@ -268,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08894C4C286B994C00C20E24 /* ProfileViewController.swift in Sources */,
-				08894C4A286B944A00C20E24 /* ProductsViewControllerB.swift in Sources */,
 				08894C1B286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld in Sources */,
 				08894C15286B8AD600C20E24 /* ViewController.swift in Sources */,
 				08894C11286B8AD600C20E24 /* AppDelegate.swift in Sources */,
