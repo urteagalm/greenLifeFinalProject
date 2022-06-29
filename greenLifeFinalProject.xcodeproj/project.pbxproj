@@ -18,6 +18,7 @@
 		08894C35286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */; };
 		08894C37286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */; };
 		08894C4C286B994C00C20E24 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C4B286B994C00C20E24 /* ProfileViewController.swift */; };
+		C8A711DA286CD762009B09E8 /* greenTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A711D9286CD762009B09E8 /* greenTipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		08894C34286B8AD800C20E24 /* greenLifeFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectUITests.swift; sourceTree = "<group>"; };
 		08894C36286B8AD800C20E24 /* greenLifeFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenLifeFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		08894C4B286B994C00C20E24 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C8A711D9286CD762009B09E8 /* greenTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenTipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				08894C10286B8AD600C20E24 /* AppDelegate.swift */,
 				08894C12286B8AD600C20E24 /* SceneDelegate.swift */,
 				08894C16286B8AD600C20E24 /* Main.storyboard */,
+				C8A711D9286CD762009B09E8 /* greenTipsViewController.swift */,
 				08894C4B286B994C00C20E24 /* ProfileViewController.swift */,
 				08894C14286B8AD600C20E24 /* ViewController.swift */,
 				08894C1C286B8AD700C20E24 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			files = (
 				08894C4C286B994C00C20E24 /* ProfileViewController.swift in Sources */,
 				08894C1B286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld in Sources */,
+				C8A711DA286CD762009B09E8 /* greenTipsViewController.swift in Sources */,
 				08894C15286B8AD600C20E24 /* ViewController.swift in Sources */,
 				08894C11286B8AD600C20E24 /* AppDelegate.swift in Sources */,
 				08894C13286B8AD600C20E24 /* SceneDelegate.swift in Sources */,
