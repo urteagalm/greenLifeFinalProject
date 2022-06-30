@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085B6590286D6A1100BB8330 /* ProductOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085B658F286D6A1100BB8330 /* ProductOptionsViewController.swift */; };
 		08894C11286B8AD600C20E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C10286B8AD600C20E24 /* AppDelegate.swift */; };
 		08894C13286B8AD600C20E24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C12286B8AD600C20E24 /* SceneDelegate.swift */; };
 		08894C15286B8AD600C20E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08894C14286B8AD600C20E24 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085B658F286D6A1100BB8330 /* ProductOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOptionsViewController.swift; sourceTree = "<group>"; };
 		08894C0D286B8AD600C20E24 /* greenLifeFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenLifeFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08894C10286B8AD600C20E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08894C12286B8AD600C20E24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				08894C10286B8AD600C20E24 /* AppDelegate.swift */,
 				08894C12286B8AD600C20E24 /* SceneDelegate.swift */,
 				08894C16286B8AD600C20E24 /* Main.storyboard */,
+				085B658F286D6A1100BB8330 /* ProductOptionsViewController.swift */,
 				C8A711D9286CD762009B09E8 /* greenTipsViewController.swift */,
 				08894C4B286B994C00C20E24 /* ProfileViewController.swift */,
 				08894C14286B8AD600C20E24 /* ViewController.swift */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08894C4C286B994C00C20E24 /* ProfileViewController.swift in Sources */,
+				085B6590286D6A1100BB8330 /* ProductOptionsViewController.swift in Sources */,
 				08894C1B286B8AD600C20E24 /* greenLifeFinalProject.xcdatamodeld in Sources */,
 				C8A711DA286CD762009B09E8 /* greenTipsViewController.swift in Sources */,
 				08894C15286B8AD600C20E24 /* ViewController.swift in Sources */,
